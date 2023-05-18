@@ -20,7 +20,7 @@ public class ListActivity extends AppCompatActivity {
         ListView lvNama = (ListView) findViewById(R.id.lvNama);
 
         ArrayList<String> daftar_nama = getIntent().getExtras().getStringArrayList("daftar_nama");
-    //testt
+    //testtt
         if(daftar_nama.isEmpty()){
             daftar_nama.add("data masih kosong");
         }
